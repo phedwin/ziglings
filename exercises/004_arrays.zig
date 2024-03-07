@@ -3,7 +3,7 @@
 //
 //   var foo: [3]u32 = [3]u32{ 42, 108, 5423 };
 //
-// When Zig can infer the size of the array, you can use '_' for the
+// When Zig can't infer the size of the array at comptime, you can use '_' for the
 // size. You can also let Zig infer the type of the value so the
 // declaration is much less verbose.
 //
